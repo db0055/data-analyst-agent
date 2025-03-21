@@ -27,7 +27,7 @@ class DataAnalystAgent:
             # Replace this with your actual Groq API key
             self.api_key = "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"  # Replace with your Groq API key
         
-        # Initialize the Groq client with just the API key, no additional parameters
+        # Initialize the Groq client without any proxies parameter
         self.client = Groq(api_key=self.api_key)
         # Use a smaller model to avoid token limits
         self.model = "llama3-8b-8192"
