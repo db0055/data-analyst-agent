@@ -32,6 +32,8 @@ class DataAnalystAgent:
         # Use a smaller model to avoid token limits
         self.model = "llama3-8b-8192"
     
+    # ... keep existing code (for all the other methods and functions in the DataAnalystAgent class)
+    
     
     def process_query(self, query):
         """
